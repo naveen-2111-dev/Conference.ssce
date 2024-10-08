@@ -1,4 +1,4 @@
-import emailQuery from "@/app/query";
+import emailQuery from "@/app/helper/query";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
