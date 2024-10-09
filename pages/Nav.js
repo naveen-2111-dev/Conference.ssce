@@ -24,8 +24,8 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="bg-transparent p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-black font-mono p-4">
+      <div className="container flex justify-between items-center">
         <div className="flex items-center space-x-0">
           <Image
             src={CseLogo}
@@ -71,12 +71,12 @@ const Nav = () => {
           className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0 ${isAnimating ? 'block' : 'hidden'} md:flex`}
         >
           <li>
-            <Link href="/home" className="text-blue-700 hover:text-gray-400 transition">
+            <Link href="/" className="text-blue-700 hover:text-gray-400 transition">
               Home.
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-blue-700 hover:text-gray-400">
+            <Link href="/About" className="text-blue-700 hover:text-gray-400">
               About.
             </Link>
           </li>

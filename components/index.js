@@ -2,6 +2,7 @@
 
 import react from "react";
 
+
 const TextComponet = () => {
   react.useEffect(() => {
     const fetchData = async () => {
