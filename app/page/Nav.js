@@ -10,11 +10,13 @@ const Nav = () => {
 
   return (
     <nav className="bg-black-700 p-4">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
-        <div className="logo bg-white w-10 h-10"></div>
-        <div className="text-blue-700 text-2xl font-bold">
-          ICRCCT.
+        <div className="flex items-center space-x-0">
+          <div className="logo bg-white w-10 h-10 "></div>
+          <div className="text-blue-700 text-2xl font-bold ml-2">
+            ICRCCT.
+          </div>
         </div>
 
         {/* Hamburger Menu Icon for Mobile */}
