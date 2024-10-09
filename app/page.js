@@ -1,4 +1,4 @@
-import TextComponet from '@/components'
+import TextComponet from '@/components/BotComp'
 import HomePage from '@/pages/HomePage'
 import Nav from '@/pages/Nav'
 import React from 'react'

@@ -24,7 +24,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="bg-black font-mono p-4">
+    <nav className="bg-transparent font-mono p-4">
       <div className="container flex justify-between items-center">
         <div className="flex items-center space-x-0">
           <Image
@@ -76,7 +76,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href="/About" className="text-blue-700 hover:text-gray-400">
+            <Link href="/about" className="text-blue-700 hover:text-gray-400">
               About.
             </Link>
           </li>

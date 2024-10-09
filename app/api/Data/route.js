@@ -14,11 +14,12 @@ export async function POST(req) {
   }
 
   try {
-    await emailQuery(mail, password);
+    const User = await emailQuery(mail, password);
     return NextResponse.json(
       {
         message: "user found",
       },
+      { data: User },
       { status: 200 }
     );
   } catch (err) {
