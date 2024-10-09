@@ -1,3 +1,9 @@
-import react from "react";
+// import React,{useState} from "react";
 
-export const [user, setuser] = react.useState("");
+// import React from 'react'
+
+// const common = () => {
+//     const [user, setuser] = useState(null);
+// }
+
+// export default common
