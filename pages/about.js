@@ -31,7 +31,6 @@ const About = () => {
 
         {/* AboutContainer as a relative positioned parent */}
         <div className="AboutContainer relative flex flex-col items-start text-justify text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-3/4 md:w-1/2 h-auto p-4 sm:p-8 rounded-lg text-white font-mono bg-black border border-white animate-blink">
-          {/* Logo Div at Top Left */}
           <div className="logo absolute top-4 left-4 w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24">
             <Image 
               src={Arrow} 

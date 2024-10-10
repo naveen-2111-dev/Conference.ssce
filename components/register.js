@@ -48,7 +48,7 @@ const Register = () => {
       setError("");
       setuser(data.data);
 
-      // window.location.href = "forms";
+      window.location.href = "https://forms.gle/ohEG2zF6mvJnoUyDA";
     } catch (err) {
       setError(err.message);
     }
