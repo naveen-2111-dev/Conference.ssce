@@ -1,0 +1,154 @@
+{
+  "conferenceName": "International Conference on Recent Trends in Computing and Communication Technologies (ICRCCT) 2024",
+  "organization": {
+    "department": "Department of Computer Science and Engineering",
+    "college": "Sri Sairam College of Engineering, Anekal",
+    "venue": "Seminar Hall, Sri Sairam College of Engineering, Anekal"
+  },
+  "conferenceDetails": [
+    {
+      "occurrence": "its going to happen for 2 days first day will be of paper presentation and second day will be of pichathon event"
+    }
+  ],
+  "dates": {
+    "conference": "November 14th & 15th, 2024",
+    "paperSubmissionDeadline": "October 18th, 2024",
+    "acceptanceNotificationDate": "October 25th, 2024",
+    "registrationDeadline": "October 27th, 2024"
+  },
+  "paperTopics": [
+    "Communication and Networks",
+    "Data Science and Advanced Computing",
+    "Circuits and Systems",
+    "Industrial Automation",
+    "5G/Next Generation Networks",
+    "Security and Privacy",
+    "Computer Vision",
+    "Machine Learning, Deep Learning",
+    "Cyber-Physical Systems / IoT",
+    "These are example topics, but any paper related to Computer Science and Engineering is welcome."
+  ],
+  "eventActivities": [
+    {
+      "name": "Paper Presentations",
+      "description": "Presenting papers on various topics related to computing and communication technologies."
+    },
+    {
+      "name": "Pitchathon",
+      "description": "Event for participants to pitch innovative ideas and prototypes.",
+      "date": "its gonna happen on second day of the conference"
+    }
+  ],
+  "organizingCommittee": {
+    "generalChair": "Dr. Smitha JA",
+    "conferenceChair": "Dr. Mahesh C",
+    "studentcoordinators": [
+      {
+        "kamalakannan": [
+          {
+            "year": "final year",
+            "phone": "83002-71850",
+            "position": "overall coordinator"
+          }
+        ],
+        "naveen Rajan M": [
+          {
+            "year": "pre-final year",
+            "phone": "63828-17065",
+            "position": "overall coordinator"
+          }
+        ]
+      }
+    ],
+    "members": ["the whole department of cse"]
+  },
+  "importantLinks": {
+    "submissionGuidelines": "URL to submission guidelines",
+    "registrationForm": "URL to registration form",
+    "contactInfo": "conference_email@example.com"
+  },
+  "faq": {
+    "general": [
+      {
+        "question": "What is the objective of the ICRCCT 2024 conference?",
+        "answer": "The objective of the conference is to bring together researchers and practitioners from academia and industry to discuss recent trends and developments in computing and communication technologies."
+      },
+      {
+        "question": "Who are the main organizers of the ICRCCT 2024?",
+        "answer": "The main organizers are the Department of Computer Science and Engineering at Sri Sairam College of Engineering."
+      },
+      {
+        "question": "Where is the ICRCCT 2024 conference being held?",
+        "answer": "The conference will be held at the Seminar Hall, Sri Sairam College of Engineering, Anekal."
+      },
+      {
+        "question": "What is the registration process for the conference?",
+        "answer": "Participants can register through the official registration link provided on the conference website."
+      }
+    ],
+    "paperSubmission": [
+      {
+        "question": "What are the submission guidelines for papers at ICRCCT 2024?",
+        "answer": "Submission guidelines are available on the conference website. All papers should follow the specified format and must be submitted before the deadline."
+      },
+      {
+        "question": "What topics are acceptable for paper submissions?",
+        "answer": "Papers can be submitted on topics including Communication and Networks, Data Science, Advanced Computing, Circuits and Systems, 5G Networks, and more."
+      },
+      {
+        "question": "When is the last date for paper submission?",
+        "answer": "The last date for paper submission is October 18th, 2024."
+      },
+      {
+        "question": "How will plagiarism be checked for submitted papers?",
+        "answer": "All submitted papers will be checked for plagiarism using standard plagiarism detection tools."
+      },
+      {
+        "question": "how to submit paper",
+        "answer": "register for the conference through our website and then you will recieve a mail from our side [enter the login cred and then you can submit the paper]"
+      },
+      {
+        "question": "who can submit the paper?",
+        "answer": "only the team leader should submit the paper"
+      }
+    ],
+    "pitchathon": [
+      {
+        "question": "What is the Pitchathon event?",
+        "answer": "The Pitchathon is an event where participants can pitch their innovative ideas and prototypes related to technology and engineering."
+      },
+      {
+        "question": "Do participants need a prototype for the Pitchathon?",
+        "answer": "It is optional, but participants are encouraged to have a working prototype, as it can add value to their pitch."
+      },
+      {
+        "question": "Is the Pitchathon event related to the papers being presented?",
+        "answer": "The Pitchathon is a separate event, but participants may choose to present ideas related to their paper submissions. its going to happen on second day and you should present a ppt based on your product"
+      }
+    ],
+    "importantDates": [
+      {
+        "question": "When is the acceptance notification for paper submissions?",
+        "answer": "The acceptance notification will be sent out on October 25th, 2024."
+      },
+      {
+        "question": "What is the deadline for registering for the conference?",
+        "answer": "The deadline for registration is October 27th, 2024."
+      },
+      {
+        "question": "When is the final date for submitting a soft copy of the paper?",
+        "answer": "The final date for submitting a soft copy of the paper is October 27th, 2024."
+      }
+    ],
+    "miscellaneous": [
+      {
+        "question": "How can participants contact the conference organizers?",
+        "answer": "Participants can contact the conference organizers via email at icrcct@gmail.com. or 83002-71850/63828-17065 "
+      },
+      {
+        "question": "Who should the soft copy of the paper be mailed to?",
+        "answer": "The soft copy of the paper should be sent through the website, click the submit button and enter your login credentials there and then submit the paper"
+      }
+    ]
+  }
+}

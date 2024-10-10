@@ -1,13 +1,15 @@
+"use client";
 import React from "react";
-import Nav from "./Nav";
+// import Nav from "./Nav";
 import Image from "next/image";  // Importing Image from next/image
 import Arrow from "../public/images/Arrow.png";
 import "tailwindcss/tailwind.css";
 
-const About = () => {
+const About = () => { 
   return (
-    <div>
-      <Nav />
+    <div className="bg-black">
+  
+      {/* <Nav /> */}
       <div className="textContainer relative flex flex-col justify-center items-center min-h-screen bg-black text-blue-600 pt-6"> {/* Added pt-6 to reduce space */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl mb-4 font-mono font-bold text-center"> {/* Reduced margin-bottom */}
           <span className="text-white">About</span> ICRCCT.
