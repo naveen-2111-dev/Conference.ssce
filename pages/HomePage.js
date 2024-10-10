@@ -19,8 +19,8 @@ const HomePage = () => {
       ></iframe>
 
       <div className="relative z-10 text-center">
-        <div className="textContainer flex justify-center w-70 ml-25 mr-25">
-          <h1 className="text-6xl font-bold text-white mb-4 w-25 font-sans leading-tight">
+        <div className="textContainer flex justify-center p-2 w-75 ml-25 mr-25">
+          <h1 className="text-2xl md:text-6xl font-bold text-white mb-4 w-25 font-mono  leading-tight "style={{ letterSpacing: '-4px' }}>
             International Conference on Recent Trends in Computing and
             Communication Technologies -{" "}
             <span className="text-blue-900 hover:text-blue-600 transition-all duration-300">
@@ -33,13 +33,13 @@ const HomePage = () => {
         </p>
         <div className="buttondiv flex justify-center gap-10 mt-20">
           <button className="px-10 py-3 border border-blue-600 text-white rounded-full hover:bg-blue-600 hover:text-white hover:scale-110 transition-all duration-500">
-            Register
+            Submit Paper
           </button>
           <button
             className="px-10 py-3 bg-blue-600 text-white rounded-full hover:border hover:border-blue-600 hover:bg-transparent hover:text-white hover:scale-110 transition-all duration-500"
             onClick={() => router.push("/Mediator")} // Navigate to the Mediator page
           >
-            Submit Paper
+            Register
           </button>
         </div>
       </div>

@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control the mobile menu
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,9 +24,13 @@ const Nav = () => {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(prev => !prev); // Toggle the menu open/close state
+  };
+
   return (
-    <nav className="bg-transparent font-mono p-4">
-      <div className="container flex justify-between items-center">
+    <nav className="bg-black font-mono p-4">
+      <div className="container flex flex-c justify-between items-center">
         <div className="flex items-center space-x-0">
           <Image
             src={CseLogo}
@@ -40,15 +45,12 @@ const Nav = () => {
             alt="Logo"
             width={130}
             height={130}
-            className={`ml-20 transition-all duration-3 ease-in-out ${
-              isAnimating
-                ? 'translate-x-[-100px] opacity-0' 
-                : 'translate-x-0 opacity-100' 
-            }`}
+            className={`ml-20 transition-all duration-3 ease-in-out ${isAnimating ? 'translate-x-[-100px] opacity-0' : 'translate-x-0 opacity-100'}`}
           />
         </div>
 
         <button
+          onClick={toggleMenu} // Toggle the menu on button click
           className="block md:hidden text-blue-700 focus:outline-none"
         >
           <svg
@@ -62,13 +64,13 @@ const Nav = () => {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d={isAnimating ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}
+              d={isMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}
             ></path>
           </svg>
         </button>
 
         <ul
-          className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0 ${isAnimating ? 'block' : 'hidden'} md:flex`}
+          className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0 ${isMenuOpen ? 'block' : 'hidden'} md:flex`}
         >
           <li>
             <Link href="/" className="text-blue-700 hover:text-gray-400 transition">
@@ -76,7 +78,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-blue-700 hover:text-gray-400">
+            <Link href="/About" className="text-blue-700 hover:text-gray-400">
               About.
             </Link>
           </li>
